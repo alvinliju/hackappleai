@@ -48,6 +48,8 @@ curl -X POST "http://localhost:8080/chat" \
 - 🔄 Will use Apple's on-device AI when available
 - 🧪 Experimental - just messing around
 
+NOTE: if localhost:8080 doesnt work use `http://127.0.0.1:8080/`
+
 ## Notes
 
 This is just an experiment to prepare for Apple's AI framework. Currently uses fallback responses, will automatically switch to real Apple AI when Foundation Models becomes available.
