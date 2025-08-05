@@ -4,6 +4,8 @@
 
 A simple AI server built to test Apple's on-device AI capabilities when they become available.
 
+the server and AI logic is in /sources/routes.swift
+
 ## What it does
 
 - Basic AI chat endpoint that works now (with fallback responses)
