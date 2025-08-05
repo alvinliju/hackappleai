@@ -1,0 +1,74 @@
+Packages
+.build
+xcuserdata
+*.xcodeproj
+DerivedData/
+.DS_Store
+db.sqlite
+.swiftpm
+.env
+.env.*
+!.env.example
+
+
+# ... existing code ...
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+project.xcworkspace/
+xcshareddata/
+
+# Swift Package Manager
+Package.resolved
+.swiftpm/
+
+# Build artifacts and logs
+*.log
+logs/
+
+# AI model files (if any)
+*.model
+*.weights
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Test coverage
+.coverage
+coverage/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+db.sqlite*
+
+# Environment
+.env*
+!.env.example
+
+# Build database issues
+.build/build.db*
